@@ -1,0 +1,19 @@
+{
+  "name": "work-schedule-server",
+  "version": "1.0.0",
+  "description": "근무 스케쥴링을 위한 서버",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "node build/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "typescript": "^4.9.5"
+  },
+  "author": "hk1211",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HK1211/workSchedule.git"
+  }
+}
